@@ -5,15 +5,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 /* //////////////// */
 
 :root {
   --primary-color: #ff5400;
-  --secondary-color:#fff;
-  --heading-color:#424247;
-  --description-color:rgba(19, 19, 24, 0.70);
+  --secondary-color: #fff;
+  --heading-color: #424247;
+  --description-color: rgba(19, 19, 24, 0.7);
 }
 /* shared styles */
 .primary-color {
@@ -22,43 +21,30 @@
 body {
   font-family: "Mulish", sans-serif;
 }
-.btn-primary{
+.btn-primary {
   padding: 14px 35px;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   outline: none;
   border: none;
   border-radius: 5px;
   color: var(--secondary-color);
   font-weight: 800;
-  font-size:1.25rem;
+  font-size: 1.25rem;
 }
 
 /* section hading  */
-.section-heading{
+.section-heading {
   color: #131318;
   font-size: 2.5rem;
   font-weight: 800;
   margin: 1.5rem 0;
 }
 /* section description */
-.section-description{
+.section-description {
   color: var(--description-color);
-  line-height:1.625rem;
+  line-height: 1.625rem;
   font: 1rem;
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* width for element align center */
 .midle-max-width {
@@ -91,9 +77,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.nav-prElement :first-child{
+.nav-prElement :first-child {
   color: var(--primary-color);
   font-weight: 700;
 }
@@ -108,79 +93,78 @@ body {
   margin-left: 2.75rem;
 }
 /* hamberger icon for phones */
-.nav-bar-container{
+.nav-bar-container {
   font-size: 1.5rem;
   color: blue;
-  display:none;
+  display: none;
 }
 
 /* header banner styles */
-.header-banner-container{
- background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hader-banner.png');
+.header-banner-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hader-banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: var(--secondary-color);
-  margin:3.75rem 0rem;
-  border-radius:1rem;
+  margin: 3.75rem 0rem;
+  border-radius: 1rem;
   /* around gap */
-  padding:10rem 7rem;
+  padding: 10rem 7rem;
   position: relative;
- 
 }
-.banner-Content-pr{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.banner-Content-pr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.banner-selection-container{
+.banner-selection-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: capitalize;
   padding: 1rem;
 }
-.banner-container h1{
+.banner-container h1 {
   color: var(--secondary-color);
   font-size: 4rem;
   font-weight: 800;
   text-align: center;
   text-transform: capitalize;
 }
-.banner-container p{
+.banner-container p {
   text-align: center;
   font-weight: 400;
   line-height: 1.625rem;
-  margin:3rem 0;
+  margin: 3rem 0;
 }
 /* --------------BANNER SELECTION STYOLE---------------*/
 
-.banner-selection-container{
+.banner-selection-container {
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.3);
   border: 0.5px dotted blue;
   font-weight: 700;
- 
 
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
-.banner-select{
+.banner-select {
   padding: 1rem;
-  color: rgba(19, 19, 24, 0.50);
+  color: rgba(19, 19, 24, 0.5);
   border: 0.5px dotted red;
   background-color: var(--secondary-color);
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 
   /* vetically and horizontally center */
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner-selection-container> :last-child{
+.banner-selection-container > :last-child {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   justify-content: center;
@@ -188,64 +172,57 @@ body {
 }
 
 /* POPULAR TOUR SECTION STYLE HERE */
-.popular-tours-contaienr{
+.popular-tours-contaienr {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-
 
 /* flexible item one */
-.populer-content-pr{
+.populer-content-pr {
   flex: 1;
-  
 }
-.populer-content-pr ul{
-  margin:1.5rem;
+.populer-content-pr ul {
+  margin: 1.5rem;
 }
-.populer-content-pr>:last-child{
-  margin-top:2rem;
+.populer-content-pr > :last-child {
+  margin-top: 2rem;
 }
-
 
 /* flexible item tow */
-.popular-image-container{
+.popular-image-container {
   display: flex;
   align-items: center;
   justify-content: end;
   flex: 1;
-  
+
   border-radius: 1rem;
-  overflow:hidden;
+  overflow: hidden;
 }
-.popular-image-container img{
+.popular-image-container img {
   height: 100%;
   max-width: 100%;
 }
 /* ------------------------------DESTINATION ------------------- */
-.destination-heading{
+.destination-heading {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.destination-heading{
+.destination-heading {
   text-align: center;
 }
 /* -----------------DESTINATION GRID LAYOUT STYLE---------------- */
- 
+
 /* destination-grid-container */
-.destination-grid-container{
+.destination-grid-container {
   display: grid;
-  grid-template-columns:repeat(12,1fr);
-  grid-template-rows: repeat(3,1fr);   
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
   margin: 2rem 0;
- 
-  
-
 }
-.destination-grid-item{
+.destination-grid-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,135 +230,164 @@ body {
   border-radius: 1rem;
   color: #fff;
   font-size: 1.75rem;
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-weight: 800;
   /* background style */
- 
-  
- 
 }
-.item-1{
-  grid-column: 1/span 6;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Maldives.png');
-  background-repeat: no-repeat; 
+.item-1 {
+  grid-column: 1 / span 6;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Maldives.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
- 
+  background-position: center;
 }
-.item-2{
-  grid-column: 7/span 6;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Indonesia.png');
-  background-repeat: no-repeat; 
+.item-2 {
+  grid-column: 7 / span 6;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Indonesia.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
-
- 
+  background-position: center;
 }
-.item-3{
-  grid-column: 1/span 3;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Srilanka.png');
-  background-repeat: no-repeat; 
+.item-3 {
+  grid-column: 1 / span 3;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Srilanka.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
-
-
- 
+  background-position: center;
 }
 
-.item-4{
-  grid-column: 4/span 7;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/North-America.png');
-  background-repeat: no-repeat; 
+.item-4 {
+  grid-column: 4 / span 7;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/North-America.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
-
- 
+  background-position: center;
 }
-.item-5{
-  grid-column: 11/span 2;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Kashmir.png');
-  background-repeat: no-repeat; 
+.item-5 {
+  grid-column: 11 / span 2;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Kashmir.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
- 
+  background-position: center;
 }
-.item-6{
-  grid-column: 1/span 5;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Bangladesh.png');
-  background-repeat: no-repeat; 
+.item-6 {
+  grid-column: 1 / span 5;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Bangladesh.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
-
+  background-position: center;
 }
-.item-7{
-  grid-column: 6/span 7;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Bandarban.png');
-  background-repeat: no-repeat; 
+.item-7 {
+  grid-column: 6 / span 7;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/destination/Bandarban.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; 
- 
+  background-position: center;
 }
 /* ----------------------Choose us ---------------- */
 
-  .choose-text-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .choose-us-card-container{
-   display: grid;
-   grid-template-columns: repeat(12,1fr);
-   grid-template-rows: repeat(2,1fr);
-   gap: 1.5rem;
-   margin-top: 1.5rem;
-  }
-  .card-common-style{
-    border-radius: .5rem;
-    padding: 2rem;
-    font-weight: 800;
-  }
-  .card-common-style h4{
-    color: #131318;
-    font-weight: 800;
-    font-size: 2rem;
-    margin:1rem 0;
-  }
-  .card-common-style i{
-    color: blue;
-    font-size: 3rem;
-    font-weight: 800;
-  }
-  .card-common-style p{
-    font-weight: 500;
-  }
+.choose-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.choose-us-card-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.card-common-style {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  font-weight: 800;
+}
+.card-common-style h4,
+.card-heading {
+  color: #131318;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.card-common-style i {
+  color: blue;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.card-common-style p {
+  font-weight: 500;
+}
 
+.card-1 {
+  grid-column: 1 / span 6;
+  border: 0.5px solid blue;
+  background-color: rgba(251, 181, 99, 0.05);
+}
+.card-2 {
+  grid-column: 7 / span 6;
+  border: 0.5px solid blue;
+  background-color: rgba(41, 206, 246, 0.05);
+}
+.card-3 {
+  border: 0.5px solid blue;
+  grid-column: 4 / span 6;
+  background-color: rgba(251, 181, 99, 0.05);
+}
+/* news latter styles */
 
-  .card-1{
-    grid-column: 1/span 6;
-    border: .5px solid blue;
-    background-color: rgba(251, 181, 99, 0.05);
-  }
-  .card-2{
-    grid-column: 7/span 6;
-    border: .5px solid blue;
-    background-color: rgba(41, 206, 246, 0.05);;
+.news-letter-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+.letter-item-1 {
+  grid-column: 1 / span 5;
+  padding: 2rem;
+  border: 0.4px solid var(--primary-color);
+  border-radius: 0.8rem;
+}
+.letter-item-2 {
+  grid-column: 6 / span 7;
+}
+.letter-item-2 img {
+  max-width: 100%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: .5rem;
+  margin-top: 1rem;
+}
+.input-container input {
+  display: inline-block;
+  padding: .5rem 2rem .5rem .5rem;
+  border-radius:.4rem;
+  outline: none;
+  border:.5px solid #bd9696;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-transform: capitalize;
 
-  }
-  .card-3{
-    border: .5px solid blue;
-    grid-column: 4/span 6;
-    background-color: rgba(251, 181, 99, 0.05);
-  }
-   
-    
+ 
+}
+hr{
+  margin:1.8rem 1.8rem 1.8rem 0rem; 
+}
 
-footer{
+footer {
   margin: 200px;
 }
