@@ -245,7 +245,7 @@ body {
 }
 .item-1 {
   grid-column: 1 / span 6;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Maldives.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,7 +253,7 @@ body {
 }
 .item-2 {
   grid-column: 7 / span 6;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Indonesia.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,7 +261,7 @@ body {
 }
 .item-3 {
   grid-column: 1 / span 3;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Srilanka.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -270,7 +270,7 @@ body {
 
 .item-4 {
   grid-column: 4 / span 7;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/North-America.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -278,7 +278,7 @@ body {
 }
 .item-5 {
   grid-column: 11 / span 2;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Kashmir.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -286,7 +286,7 @@ body {
 }
 .item-6 {
   grid-column: 1 / span 5;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Bangladesh.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -294,7 +294,7 @@ body {
 }
 .item-7 {
   grid-column: 6 / span 7;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url("../images/destination/Bandarban.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,7 +357,7 @@ body {
 
 
 .bg-1{
-  background: url("../images/deals-discount/destination1.png");
+  background:url("../images/deals-discount/destination1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -365,7 +365,7 @@ body {
 
 }
 .bg-2{
-  background: url("../images/deals-discount/destination2.png");
+  background:url("../images/deals-discount/destination2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
