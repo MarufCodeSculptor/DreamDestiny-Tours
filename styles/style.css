@@ -1,0 +1,155 @@
+/* improted google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&family=Poppins:wght@300;400;600;700;800;900&family=Russo+One&family=Sora:wght@300;400;500;600;700;800&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap");
+/* ...................................------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* //////////////// */
+
+:root {
+  --primary-color: #ff5400;
+}
+/* shared styles */
+.primary-color {
+  color: #ff5400;
+}
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* width for element align center */
+.midle-max-width {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/* ................ */
+/* navigation container */
+.navigationn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* nav logo container */
+.nav-loto-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* nav title style */
+.nav-title {
+  margin-left: 1rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+/* ................ */
+
+/* navigation ancor style */
+.nav-prElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.nav-prElement :first-child{
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.nav-prElement a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 2.75rem;
+}
+/* hamberger icon for phones */
+.nav-bar-container{
+  font-size: 1.5rem;
+  color: blue;
+  display:none;
+}
+
+/* header banner styles */
+.header-banner-container{
+ background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hader-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin:3.75rem 0rem;
+  border-radius:1rem;
+  /* around gap */
+  padding:10rem 7rem;
+  position: relative;
+ 
+}
+.banner-Content-pr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-selection-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.banner-container h1{
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: capitalize;
+}
+.banner-container p{
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin:3rem 0;
+}
+/* --------------BANNER SELECTION STYOLE---------------*/
+
+.banner-selection-container{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  border: 0.5px dotted blue;
+  font-weight: 700;
+ 
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.banner-select{
+  padding: 1rem;
+  color: rgba(19, 19, 24, 0.50);
+  border: 0.5px dotted red;
+  background-color: #fff;
+  border-radius: .5rem;
+
+  /* vetically and horizontally center */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.banner-selection-container> :last-child{
+  background-color: var(--primary-color);
+  color: #fff;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+
+
+
+  
+  
+ 

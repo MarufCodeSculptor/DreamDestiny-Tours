@@ -1,0 +1,52 @@
+/* Styles for phones */
+@media only screen and (max-width: 767px) {
+    /* Header navigation container */
+    body{
+      padding:.5rem;
+      border: .5px solid blue;
+    }
+    .nav-prElement{
+      display: none;
+     }
+     .nav-bar-container{
+      display: block;
+     }
+     .nav-title{
+      font-size:1.5rem;
+     }
+     /* header banner responsive */
+     .header-banner-container{
+      padding:1rem;
+     }
+     .banner-selection-container{
+      grid-template-columns: repeat(1,1fr);
+      gap:.5rem;
+      padding:1.5rem;
+
+     }
+     .banner-container p{
+      margin: 0;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  } 
+
+
