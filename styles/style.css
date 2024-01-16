@@ -12,6 +12,8 @@
 :root {
   --primary-color: #ff5400;
   --secondary-color:#fff;
+  --heading-color:#424247;
+  --description-color:rgba(19, 19, 24, 0.70);
 }
 /* shared styles */
 .primary-color {
@@ -30,6 +32,22 @@ body {
   font-weight: 800;
   font-size:1.25rem;
 }
+
+/* section hading  */
+.section-heading{
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1.5rem 0;
+}
+/* section description */
+.section-description{
+  color: var(--description-color);
+  line-height:1.625rem;
+  font: 1rem;
+}
+  
+
 
 
 
@@ -183,20 +201,8 @@ body {
   flex: 1;
   
 }
-.populer-content-pr p , .populer-content-pr li{
-font-weight: 400;
-font-size: 1rem;
-line-height: 1.625rem;
-color: rgba(19, 19, 24, 0.70);;
-}
 .populer-content-pr ul{
   margin:1.5rem;
-}
-.populer-content-pr h2{
-  color: #131318;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin: 1.5rem 0;
 }
 .populer-content-pr>:last-child{
   margin-top:2rem;
@@ -216,7 +222,114 @@ color: rgba(19, 19, 24, 0.70);;
 .popular-image-container img{
   height: 100%;
   max-width: 100%;
+}
+/* ------------------------------DESTINATION ------------------- */
+.destination-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.destination-heading{
+  text-align: center;
+}
+/* -----------------DESTINATION GRID LAYOUT STYLE---------------- */
  
+/* destination-grid-container */
+.destination-grid-container{
+  display: grid;
+  grid-template-columns:repeat(12,1fr);
+  grid-template-rows: repeat(3,1fr);   
+  gap: 1rem;
+  margin: 2rem 0;
+ 
+  
+
+}
+.destination-grid-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1.75rem;
+  text-transform:uppercase;
+  font-weight: 800;
+  /* background style */
+ 
+  
+ 
+}
+.item-1{
+  grid-column: 1/span 6;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Maldives.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+ 
+}
+.item-2{
+  grid-column: 7/span 6;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Indonesia.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+
+ 
+}
+.item-3{
+  grid-column: 1/span 3;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Srilanka.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+
+
+ 
+}
+
+.item-4{
+  grid-column: 4/span 7;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/North-America.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+
+ 
+}
+.item-5{
+  grid-column: 11/span 2;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Kashmir.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+ 
+}
+.item-6{
+  grid-column: 1/span 5;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Bangladesh.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+
+}
+.item-7{
+  grid-column: 6/span 7;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/destination/Bandarban.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center; 
+ 
+}
+  
+
+footer{
+  margin: 200px;
 }
 
 
