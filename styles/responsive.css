@@ -3,7 +3,6 @@
     /* Header navigation container */
     body{
       padding:.5rem;
-     
     }
     .nav-prElement{
       display: none;
@@ -35,8 +34,17 @@
      /* -------------DESTINATION GRID LAYOUT STYLE---------------- */
      .destination-grid-container,.choose-us-card-container, .news-letter-container, .review-container{
       display: flex;flex-direction: column;
+     
     }
-    /* ----------------------Choose us ---------------- */
+    /* ----------------------|Deals and discount|---------------- */
+    .discount-card{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+
 
     
     
