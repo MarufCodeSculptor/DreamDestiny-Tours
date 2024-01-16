@@ -11,6 +11,7 @@
 
 :root {
   --primary-color: #ff5400;
+  --secondary-color:#fff;
 }
 /* shared styles */
 .primary-color {
@@ -19,6 +20,27 @@
 body {
   font-family: "Mulish", sans-serif;
 }
+.btn-primary{
+  padding: 14px 35px;
+  background-color:var(--primary-color);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  font-weight: 800;
+  font-size:1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* width for element align center */
 .midle-max-width {
@@ -80,7 +102,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--secondary-color);
   margin:3.75rem 0rem;
   border-radius:1rem;
   /* around gap */
@@ -100,7 +122,7 @@ body {
   text-transform: capitalize;
 }
 .banner-container h1{
-  color: #fff;
+  color: var(--secondary-color);
   font-size: 4rem;
   font-weight: 800;
   text-align: center;
@@ -131,7 +153,7 @@ body {
   padding: 1rem;
   color: rgba(19, 19, 24, 0.50);
   border: 0.5px dotted red;
-  background-color: #fff;
+  background-color: var(--secondary-color);
   border-radius: .5rem;
 
   /* vetically and horizontally center */
@@ -141,12 +163,35 @@ body {
 }
 .banner-selection-container> :last-child{
   background-color: var(--primary-color);
-  color: #fff;
+  color: var(--secondary-color);
   justify-content: center;
   gap: 1rem;
 }
 
+/* POPULAR TOUR SECTION STYLE HERE */
+.popular-tours-contaienr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+
+
+
+.popular-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+}
+.populer-content-pr{
+  flex: 1;
+
+}
+.popular-image-container img{
+  max-width: 100%;
+
+}
 
 
 
