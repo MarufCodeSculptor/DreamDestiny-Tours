@@ -27,6 +27,12 @@
      .banner-container p{
       margin: 0;
      }
+     /* POPULAR TOUR SECTION responsvie */
+     .popular-tours-contaienr{
+      flex-direction:column;
+      gap: 1rem;
+     }
+
 
 
 
