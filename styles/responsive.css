@@ -33,10 +33,10 @@
       gap: 1rem;
      }
      /* -------------DESTINATION GRID LAYOUT STYLE---------------- */
-     .destination-grid-container{
+     .destination-grid-container,.choose-us-card-container{
       display: flex;flex-direction: column;
     }
-
+    /* ----------------------Choose us ---------------- */
     
 
 
