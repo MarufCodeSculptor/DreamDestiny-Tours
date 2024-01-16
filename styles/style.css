@@ -408,13 +408,77 @@ body {
   border:.5px solid #bd9696;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    text-transform: capitalize;
+  }
+/*-------------------Review section style-------------- */
+.section-reviews{
+  margin: 5rem 0;
+}
+  .review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 1.5rem;
+  }
+  .review-card{
+    background-color:rgba(41, 206, 246, 0.05);
+    border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+      padding: 2rem;
+      text-align: center;
+      text-transform: capitalize;
+    
+  }
+  .review-card p{
+    color: #42424e;
+    font-size: 1rem;
+    font-weight: 500;
+    
+  }
+  .review-card h4{
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+  .review-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-image-wrapper img{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     margin-bottom: 1rem;
+    }
+    hr{
+      margin:1.8rem 1.8rem 1.8rem 0rem; 
+    }
+
+
+
+
+
+
 
  
-}
-hr{
-  margin:1.8rem 1.8rem 1.8rem 0rem; 
-}
 
 footer {
-  margin: 200px;
+  background: rgba(19, 19, 24, 0.05);
 }
+.footer-content-wrapper {
+  padding: 5rem;
+ 
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons a{
+  font-size: 1.5rem;
+  margin:1rem;
+
+}
+  
