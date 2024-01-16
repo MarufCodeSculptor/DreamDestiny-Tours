@@ -40,6 +40,10 @@ body {
 .capitalised{
   text-transform: capitalize;
 }
+.line{
+  margin:2rem 0rem;
+}
+/* ......................................................................................... */
 
 /* section hading  */
 .section-heading {
@@ -524,7 +528,7 @@ body {
   border-radius: 50%;
   margin-bottom: 1rem;
 }
-hr {
+hr{
   margin: 0rem 1.8rem 1.8rem 0rem;
 }
 
